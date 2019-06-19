@@ -1,0 +1,41 @@
+{
+    // general
+    "editor.fontSize": 12,
+    "files.encoding": "shiftjis",
+    "editor.minimap.enabled": false,
+    "workbench.activityBar.visible": true,
+    "workbench.statusBar.visible": true,
+    "workbench.colorTheme": "Monokai Dimmed",
+
+    // proxy setting.
+    // "http.proxy": "http://xxx.co.jp:8080",
+    // "http.proxyStrictSSL": false,
+
+    // clang-format
+    //"C_Cpp.clang_format_path": "C:\\<path>\\clang-format.exe",
+    "C_Cpp.clang_format_style": "file",
+    "C_Cpp.clang_format_fallbackStyle": "Visual Studio",
+    "C_Cpp.clang_format_sortIncludes": null,
+    "C_Cpp.formatting": "Default",
+
+    // cmake
+    //"cmake.cmakePath": "C:/<path>/cmake.exe",
+
+    // VSCodeVim
+    "vim.hlsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.handleKeys": {
+        "<C-f>": false, // search
+        "<C-p>": false, // file-search
+    },
+	// easymotion
+    "vim.easymotion": true,
+    "vim.easymotionKeys": "hklasdgjf",
+    // ノーマルモードでsを押すとeasymotion発動
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["s"],
+            "after": ["leader", "leader", "s"]
+        }
+    ],
+}

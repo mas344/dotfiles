@@ -1,0 +1,33 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    // エディタ間の移動
+    // http://webdesign.vdlz.xyz/Editor/VSCode/Doc/Customization/Doc010_KeyBindingsForVisualStudioCode.html
+    {
+        "key": "ctrl+h",
+        "command": "workbench.action.navigateLeft",
+        //"when" : "editorTextFocus"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "workbench.action.navigateDown",
+    },
+    {
+        "key": "ctrl+k",
+        "command": "workbench.action.navigateUp",
+    },
+    {
+        "key": "ctrl+l",
+        "command": "workbench.action.navigateRight",
+    },
+    // ファイルの移動
+    {
+        "key": "ctrl+n",
+        "command": "workbench.action.previousEditor",
+        "when" : "editorTextFocus"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "workbench.action.nextEditor",
+        "when" : "editorTextFocus"
+    },
+]
